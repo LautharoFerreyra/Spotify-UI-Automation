@@ -21,7 +21,7 @@ jobs:
 
       - name: Run Cypress tests
         run: |
-          npx cypress run --browser chrome --config cypress.json --spec 'tests/integration/*.spec.js'
+          npx cypress run
 
       - name: Upload Cypress test reports (optional)
         uses: actions/upload-artifact@v3
