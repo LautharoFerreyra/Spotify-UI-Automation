@@ -1,8 +1,9 @@
 name: Run Cypress Automation Tests
 
 on:
-  push:
-    branches: [ main ]
+  # Scheduled execution at 9 PM GMT-3 every day
+  schedule:
+    - cron: '0 21 * * *'  # 21:00 (9 PM) in GMT-3 time
 
 jobs:
   test_job:
@@ -17,7 +18,7 @@ jobs:
 
       - name: Install Cypress dependencies
         run: |
-          npm install cypress --browser chrome 
+          npm install cypress --browser chrome
 
       - name: Run Cypress tests
         run: |
@@ -32,3 +33,4 @@ jobs:
       - name: Fail workflow if tests fail
         run: exit 1
         if: always()
+
