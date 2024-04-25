@@ -17,7 +17,7 @@ jobs:
 
       - name: Install Cypress dependencies
         run: |
-          npm install cypress
+          npm install cypress --browser chrome 
 
       - name: Run Cypress tests
         run: |
