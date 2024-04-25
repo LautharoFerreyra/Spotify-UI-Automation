@@ -18,11 +18,12 @@ jobs:
 
       - name: Install Cypress dependencies
         run: |
-          npm install cypress --browser chrome
+          npm install cypress
 
       - name: Run Cypress tests
         run: |
-          npx cypress run
+          npx cypress run --browser chrome
+
 
       - name: Upload Cypress test reports (optional)
         uses: actions/upload-artifact@v3
