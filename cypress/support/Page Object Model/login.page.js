@@ -19,6 +19,9 @@ class loginPage{
     get passwordShow(){
         return cy.get('[data-testid="login-password-preview"]')
     }
+    get wrongUserPass(){
+        return cy.get('.Wrapper-sc-62m9tu-0')
+    }
 
 }
 export default new loginPage();
