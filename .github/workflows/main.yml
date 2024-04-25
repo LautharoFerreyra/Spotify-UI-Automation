@@ -1,0 +1,55 @@
+name: Run Cypress Automation Tests
+
+on:
+  # Both push and schedule triggers defined
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 21 * * *'  # 21:00 (9 PM) in GMT-3 time
+
+jobs:
+  test_job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Node.js dependencies
+        run: |
+          npm install
+
+      - name: Install Cypress dependencies
+        run: |
+          npm install cypress
+
+      - name: Determine execution mode
+        id: determine-mode
+        run: |
+          echo "** Triggered by: ${{ github.event.name }} **"
+          if [ "${{ github.event.name }}" == "push" ]; then
+            echo "** Manual execution (push) **"
+            exit 1
+          else
+            echo "** Scheduled execution **"
+          fi
+
+      - name: Run Cypress tests (manual)
+        if: ${{ steps.determine-mode.outputs.exit-code == 1 }}
+        run: |
+          npx cypress run --browser chrome
+
+      - name: Run Cypress tests (scheduled)
+        if: ${{ steps.determine-mode.outputs.exit-code == 0 }}
+        run: |
+          npx cypress run --browser chrome
+
+      - name: Upload Cypress test reports (optional)
+        uses: actions/upload-artifact@v3
+        with:
+          name: cypress-reports
+          path: cypress/reports
+
+      - name: Fail workflow if tests fail
+        run: exit 1
+        if: always()
+
