@@ -1,4 +1,4 @@
-name: Run Cypress Automation Tests
+name: Run Spotify Cypress Automation Tests
 
 on:
   # Both push and schedule triggers defined
