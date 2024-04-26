@@ -22,17 +22,6 @@ jobs:
         run: |
           npm install cypress
 
-      - name: Determine execution mode
-        id: determine-mode
-        run: |
-          echo "** Triggered by: ${{ github.event.name }} **"
-          if [ "${{ github.event.name }}" == "push" ]; then
-            echo "** Manual execution (push) **"
-            exit 1
-          else
-            echo "** Scheduled execution **"
-          fi
-
       - name: Run Cypress tests (manual)
         if: ${{ steps.determine-mode.outputs.exit-code == 1 }}
         run: |
