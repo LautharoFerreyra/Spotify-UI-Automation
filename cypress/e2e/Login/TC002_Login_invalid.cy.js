@@ -1,5 +1,5 @@
-import loginData from "../../test-data/login";
-import loginPage from "../../support/Page Object Model/login.page";
+import loginData from "../../test-data/login.js";
+import loginPage from "../../support/Page Object Model/login.page.js";
 
 describe('Login with wrong credentials', () => {
 
