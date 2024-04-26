@@ -30,4 +30,12 @@ describe('Login with correct credentials', () => {
       loginPage.remeberBtn.click();
       loginPage.loginBtn.click()
     });
+    it('Invalid credentials', () => {
+      loginPage.iniLoginBtn.click();
+      loginPage.userInput.type(loginData.invalidUser);
+      loginPage.userPassword.type(loginData.invalidPassword);
+      loginPage.loginBtn.click()
+      loginPage.wrongUserPass.invoke('show')
+    });
+
 });
