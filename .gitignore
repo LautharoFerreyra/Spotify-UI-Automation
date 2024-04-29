@@ -1,0 +1,5 @@
+# Ignorar directorio node_modules
+node_modules/
+
+# Ignorar capturas de pantalla de Cypress
+/cypress/screenshots/
