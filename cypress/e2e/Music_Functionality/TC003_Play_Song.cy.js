@@ -6,10 +6,14 @@ escribe('Play a song', () => {
       loginPage.userInput.type(loginData.validUser);
       loginPage.userPassword.type(loginData.validPassword);
       loginPage.loginBtn.click()
+      SearchPage.searchButtom.click({ multiple: true } );
+        SearchPage.searchBard.click().type("Una noche de rock"); 
     });
 
     it('Play a song', () => {
       
+
+
     });
 
     it('Stop the song', () => {
