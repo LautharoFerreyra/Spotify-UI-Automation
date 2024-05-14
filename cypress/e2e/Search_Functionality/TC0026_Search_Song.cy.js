@@ -1,6 +1,7 @@
 import loginData from "../../test-data/login.js";
 import loginPage from "../../support/Page Object Model/login.page.js";
-import SearchPage from "../../support/Page Object Model/Search.page.js";
+import SearchPage from "../../support/Page Object Model/search.page.js";
+import songPage from "../../support/Page Object Model/song.page.js";
 
 describe('Search Songs', () => {
 
@@ -13,9 +14,15 @@ describe('Search Songs', () => {
     });
 
     it('Search Song', () => {
-        SearchPage.searchButtom.click({ multiple: true } );
-        SearchPage.searchBard.click().type("Una noche de rock"); 
-        
-    
-    });
+      SearchPage.searchButtom.click({ multiple: true });
+      SearchPage.searchBard.click().type("Una noche de rock"); 
+      SearchPage.searchHeroCard.click();
+      songPage.playBtnAfterHeroCard.then(($boton) => {
+        if ($boton.length > 0) {
+          $boton.click();
+      } else {
+          songPage.playBtnAfterHeroCard2.click();
+      }});
+  });
+  
 });
