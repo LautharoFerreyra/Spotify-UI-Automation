@@ -37,5 +37,6 @@ describe('Login with correct credentials', () => {
       loginPage.loginBtn.click()
       loginPage.wrongUserPass.invoke('show')
     });
+    loginData
 
 });
