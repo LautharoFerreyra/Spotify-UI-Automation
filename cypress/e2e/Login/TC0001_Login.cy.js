@@ -23,11 +23,20 @@ describe('Login with correct credentials', () => {
       loginPage.loginBtn.click()
     });
 
-    it.skip('Correct credentials Dont remeber', () => {
+    it('Correct credentials Dont remeber', () => {
       loginPage.iniLoginBtn.click();
       loginPage.userInput.type(loginData.validUser);
       loginPage.userPassword.type(loginData.validPassword);
       loginPage.remeberBtn.click();
       loginPage.loginBtn.click()
     });
+    it('Invalid credentials', () => {
+      loginPage.iniLoginBtn.click();
+      loginPage.userInput.type(loginData.invalidUser);
+      loginPage.userPassword.type(loginData.invalidPassword);
+      loginPage.loginBtn.click()
+      loginPage.wrongUserPass.invoke('show')
+    });
+    loginData
+
 });
