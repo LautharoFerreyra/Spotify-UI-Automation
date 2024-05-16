@@ -19,8 +19,8 @@ describe('Login with wrong credentials', () => {
         loginPage.iniLoginBtn.click();
         loginPage.userInput.type(loginData.invalidUser);
         loginPage.userPassword.type(loginData.invalidPassword);
-        loginPage.loginBtn.click()
-        loginPage.wrongUserPass.invoke('show')
+        loginPage.loginBtn.click();
+        loginPage.wrongUserPass.invoke('show');
       });
 
     it('Invalid credentials Show Password', () => {
@@ -28,7 +28,7 @@ describe('Login with wrong credentials', () => {
       loginPage.userInput.type(loginData.invalidUser);
       loginPage.userPassword.type(loginData.invalidPassword);
       loginPage.passwordShow.click();
-      loginPage.loginBtn.click()
+      loginPage.loginBtn.click();
       loginPage.wrongUserPass.invoke('show')
     });
 
