@@ -22,6 +22,12 @@ class loginPage{
     get wrongUserPass(){
         return cy.get('.Wrapper-sc-62m9tu-0')
     }
+    get btnCloseSetting(){
+        return cy.get('.Button-sc-1dqy6lx-0')
+    }
+    get cookieBtn(){
+        return cy.get('#onetrust-close-btn-container > .onetrust-close-btn-handler')
+    }
 
 }
 export default new loginPage();
