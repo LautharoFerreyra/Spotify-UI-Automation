@@ -1,6 +1,7 @@
 import loginData from "../../test-data/login";
 import loginPage from "../../support/Page Object Model/login.page";
-//import searchPage from "../../support/Page Object Model/search.page";
+import searchPage from "../../support/Page Object Model/search.page";
+//import playlistPage from "../../support/Page Object Model/playlist.page";
 
 describe('The Home Page',() => {
 
