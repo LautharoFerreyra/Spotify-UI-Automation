@@ -1,7 +1,7 @@
 import loginData from "../../test-data/login";
 import loginPage from "../../support/Page Object Model/login.page";
 import searchPage from "../../support/Page Object Model/search.page";
-//import playlistPage from "../../support/Page Object Model/playlist.page";
+import playListPage from "../../support/Page Object Model/playList.page";
 
 describe('The Home Page',() => {
 
@@ -14,6 +14,12 @@ describe('The Home Page',() => {
     });
 
     it("Create a playlist", () => {
-      
+      playListPage.createPlaylist.click();
+      playListPage.createNewPlaylist.click(); 
+      playListPage.playlistTitle.click();
+      playListPage.playlistName.type("Test Playlist");
+      playListPage.playlistDescription.type("Test Description");
+      playListPage.playlistSaveData.click(); 
+
     });
 })
