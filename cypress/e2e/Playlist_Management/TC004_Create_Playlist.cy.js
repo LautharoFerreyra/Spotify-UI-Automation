@@ -2,6 +2,8 @@ import loginData from "../../test-data/login";
 import loginPage from "../../support/Page Object Model/login.page";
 import searchPage from "../../support/Page Object Model/search.page";
 import playListPage from "../../support/Page Object Model/playList.page";
+import 'cypress-file-upload';
+
 
 describe('The Home Page',() => {
 
@@ -16,9 +18,11 @@ describe('The Home Page',() => {
     it("Create a playlist", () => {
       playListPage.createPlaylist.click();
       playListPage.createNewPlaylist.click(); 
-      playListPage.playlistTitle.click();
+      playListPage.playlistTitle.click({force : true});
       playListPage.playlistName.type("Test Playlist");
       playListPage.playlistDescription.type("Test Description");
+      const imagePath = "nan01.jpg";
+      playListPage.playlistImagen.attachFile(imagePath);
       playListPage.playlistSaveData.click(); 
 
     });
