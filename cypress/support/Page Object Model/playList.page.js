@@ -21,6 +21,9 @@ class playListPage{
     get playlistImagen(){
         return cy.get(".wcftliF4QjZKB1CYgEON")
     }
+    get optionButtom(){
+        return cy.get('[data-testid="action-bar-row"] > [data-testid="more-button"]')
+    }
     get addButtom(){
         return cy.get(".KAcp7QFuEYSouAsuC5i_")
     }

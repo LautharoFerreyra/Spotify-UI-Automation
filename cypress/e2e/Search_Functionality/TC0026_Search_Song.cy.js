@@ -23,6 +23,6 @@ describe('Search Songs', () => {
       } else {
           songPage.playBtnAfterHeroCard2.click();
       }});
-  });
+    });
   
 });
