@@ -18,6 +18,9 @@ class playListPage{
     get playlistSaveData(){
         return cy.get(".Up_Ke_BKTraatSMY_Po_")
     }
+    get playlistImagen(){
+        return cy.get(".wcftliF4QjZKB1CYgEON")
+    }
     get addButtom(){
         return cy.get(".KAcp7QFuEYSouAsuC5i_")
     }
