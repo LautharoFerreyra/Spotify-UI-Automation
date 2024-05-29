@@ -10,7 +10,7 @@ class songPage{
         return cy.get('[data-testid="action-bar-row"] > .ix_8kg3iUb9VS5SmTnBY > [data-testid="play-button"]')
     }
     get playBtnAfterHeroCard2 (){
-        returncy.get('[data-testid="topbar-content"] > .ix_8kg3iUb9VS5SmTnBY > [data-testid="play-button"] > .ButtonInner-sc-14ud5tc-0')
+        return cy.get('[data-testid="topbar-content"] > .ix_8kg3iUb9VS5SmTnBY > [data-testid="play-button"] > .ButtonInner-sc-14ud5tc-0')
     }
     get playBtn (){
         return
