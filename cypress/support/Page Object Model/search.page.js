@@ -6,6 +6,12 @@ class searchPage{
     get searchBard(){ 
         return cy.get(".CVuGEUIxLkNKpMds8AFS")
     }
+    get searchHeroCard(){ 
+        return cy.get(".mXNT9H2GU7lDW4cGx0q1")
+    }
+    
+    
+    
     
 
 }
