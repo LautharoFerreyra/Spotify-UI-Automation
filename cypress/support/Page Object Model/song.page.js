@@ -15,6 +15,5 @@ class songPage{
     get playBtn (){
         return
     }
-
 }
 export default new songPage();
