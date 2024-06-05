@@ -28,6 +28,5 @@ class loginPage{
     get cookieBtn(){
         return cy.get('#onetrust-close-btn-container > .onetrust-close-btn-handler')
     }
-
 }
 export default new loginPage();

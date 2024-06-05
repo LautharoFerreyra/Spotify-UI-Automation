@@ -8,11 +8,6 @@ class searchPage{
     }
     get searchHeroCard(){ 
         return cy.get(".mXNT9H2GU7lDW4cGx0q1")
-    }
-    
-    
-    
-    
-
+    }   
 }
 export default new searchPage();
