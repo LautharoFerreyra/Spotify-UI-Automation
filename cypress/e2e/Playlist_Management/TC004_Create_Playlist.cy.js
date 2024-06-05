@@ -24,6 +24,5 @@ describe('The Home Page',() => {
       const imagePath = "nan01.jpg";
       playListPage.playlistImagen.attachFile(imagePath);
       playListPage.playlistSaveData.click(); 
-
     });
 })
