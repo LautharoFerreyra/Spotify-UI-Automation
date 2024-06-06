@@ -24,4 +24,24 @@ describe('The Home Page',() => {
       playListPage.playlistImagen.attachFile(imagePath);
       playListPage.playlistSaveData.click(); 
     });
+
+    it("Remove a playlist", () => {
+      playListPage.createPlaylist.click();
+      playListPage.createNewPlaylist.click(); 
+      playListPage.playlistTitle.click({force : true});
+      playListPage.playlistName.type("Test Playlist");
+      playListPage.playlistDescription.type("Test Description");
+    });
+
+    it("Edit details playlist", () => {
+      playListPage.createPlaylist.click();
+      playListPage.createNewPlaylist.click(); 
+      playListPage.playlistTitle.click({force : true});
+      playListPage.playlistName.type("Test Playlist");
+      playListPage.playlistDescription.type("Test Description");
+      const imagePath = "nan01.jpg";
+      playListPage.playlistImagen.attachFile(imagePath);
+      playListPage.playlistSaveData.click(); 
+    });
+    
 })

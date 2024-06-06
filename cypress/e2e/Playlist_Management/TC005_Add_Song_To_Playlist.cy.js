@@ -7,7 +7,7 @@ import songPage from "../../support/Page Object Model/song.page"
 describe('Add Song',() => {
 
     beforeEach(() => {
-        cy.visit('https://open.spotify.com/intl-es');
+        cy.visit('/');
         loginPage.iniLoginBtn.click();
         loginPage.userInput.type(loginData.validUser);
         loginPage.userPassword.type(loginData.validPassword);

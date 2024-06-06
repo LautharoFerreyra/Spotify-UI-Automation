@@ -45,8 +45,5 @@ class playListPage{
     get ShuffleButtom(){ 
         return cy.get(".mXNT9H2GU7lDW4cGx0q1")
     }
-    
-    
-
 }
 export default new playListPage();
