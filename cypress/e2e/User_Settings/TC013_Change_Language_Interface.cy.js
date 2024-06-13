@@ -21,4 +21,31 @@ describe ('Change Languague', () => {
         configPage.configRefrsh.click()
     });
 
+    it('Change to Afrikaans', () => {
+        configPage.configProfile.click()
+        configPage.configPreferences.click()
+        configPage.configLanguage.select("af")
+        configPage.configRefrsh.click()
+    });
+    it('Change to 日本語 ', () => {
+        configPage.configProfile.click()
+        configPage.configPreferences.click()
+        configPage.configLanguage.select("ja")
+        configPage.configRefrsh.click()
+    });
+
+    it('Change to 繁體中文', () => {
+        configPage.configProfile.click()
+        configPage.configPreferences.click()
+        configPage.configLanguage.select("zh-HK")
+        configPage.configRefrsh.click()
+    });
+    
+    it('Change to Español de Latinoamérica', () => {
+        configPage.configProfile.click()
+        configPage.configPreferences.click()
+        configPage.configLanguage.select("es-419")
+        configPage.configRefrsh.click()
+    });
+
 }); 
