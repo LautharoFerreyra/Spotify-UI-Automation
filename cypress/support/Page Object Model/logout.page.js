@@ -1,6 +1,6 @@
 class logoutPage{
     get logoutBtn(){
-        return cy.get("")
+        return cy.get('[data-testid="user-widget-dropdown-logout"]')
     }
 }
 

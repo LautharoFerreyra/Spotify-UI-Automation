@@ -6,7 +6,7 @@ import configPage from "../../support/Page Object Model/config.page.js";
 describe ('Change Languague', () => {
 
     beforeEach(() => {
-        cy.visit('https://open.spotify.com/intl-es');
+      cy.visit('https://open.spotify.com/intl-es');
       loginPage.iniLoginBtn.click();
       loginPage.userInput.type(loginData.validUser);
       loginPage.userPassword.type(loginData.validPassword);
