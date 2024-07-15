@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c17cb3dc-e2b8-4e2f-8a0a-4175be7caeb3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/downloads/downloads.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/Logout/TC0026_Logout.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Logout/TC0026_Logout.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/Music_Functionality/TC014_Play_Playlist.cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/Music_Functionality/TC020_Play_Shuffle_Playlist.cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/e2e/Playlist_Management/TC005_Add_Song_To_Playlist.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Playlist_Management/TC005_Add_Song_To_Playlist.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/support/Page Object Model/playList.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/Page Object Model/playList.page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/support/Page Object Model/song.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/Page Object Model/song.page.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

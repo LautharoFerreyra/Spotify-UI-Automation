@@ -26,6 +26,5 @@ describe('Add song to a playlist',() => {
         }});
         cy.scrollTo('top', )
         playListPage.optionButtom.click();
-
     });
 })
