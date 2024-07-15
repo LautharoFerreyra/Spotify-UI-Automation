@@ -33,17 +33,14 @@ class playList{
     get shuffleButtom(){ 
         return cy.get(".mXNT9H2GU7lDW4cGx0q1")
     }
-    get ShuffleButtom(){ 
-        return cy.get(".mXNT9H2GU7lDW4cGx0q1")
-    }
     get nameButtom(){ 
         return cy.get(".mXNT9H2GU7lDW4cGx0q1")
     }
     get picButtom(){ 
         return cy.get(".mXNT9H2GU7lDW4cGx0q1")
     }
-    get ShuffleButtom(){ 
-        return cy.get(".mXNT9H2GU7lDW4cGx0q1")
+    get addToPlayList(){
+        return cy.get('.encore-announcement-set > .Button-sc-1dqy6lx-0 > .IconWrapper__Wrapper-sc-16usrgb-0 > .Svg-sc-ytk21e-0')
     }
 }
 export default new playList();

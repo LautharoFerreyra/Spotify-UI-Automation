@@ -4,10 +4,10 @@ import searchPage from "../../support/Page Object Model/search.page";
 import playListPage from "../../support/Page Object Model/playList.page";
 import songPage from "../../support/Page Object Model/song.page"
 
-describe('Add Song',() => {
+describe('Add song to a playlist',() => {
 
     beforeEach(() => {
-        cy.visit('/');
+        cy.visit('https://open.spotify.com/intl-es');
         loginPage.iniLoginBtn.click();
         loginPage.userInput.type(loginData.validUser);
         loginPage.userPassword.type(loginData.validPassword);
@@ -24,6 +24,8 @@ describe('Add Song',() => {
             } else {
                 songPage.playBtnAfterHeroCard2.click();
         }});
+        cy.scrollTo('top', )
         playListPage.optionButtom.click();
+
     });
 })

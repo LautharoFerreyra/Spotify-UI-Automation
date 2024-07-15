@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c17cb3dc-e2b8-4e2f-8a0a-4175be7caeb3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/downloads/downloads.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/Logout/TC0026_Logout.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Logout/TC0026_Logout.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/Music_Functionality/TC014_Play_Playlist.cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/Music_Functionality/TC020_Play_Shuffle_Playlist.cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/Playlist_Management/TC005_Add_Song_To_Playlist.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Playlist_Management/TC005_Add_Song_To_Playlist.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/Page Object Model/playList.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/Page Object Model/playList.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/Page Object Model/song.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/Page Object Model/song.page.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2j3oJBAZaTucYEdy0YWrBnpTRdL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cypress.all tests in TC002_Login_invalid.cy.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/OneDrive/Desktop/Automation Spotify/Spotify-UI-Automation&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="all tests in TC002_Login_invalid.cy.js" type="JavaScriptTestRunnerCypress" temporary="true">
+      <node-interpreter value="project" />
+      <cypress-package value="$PROJECT_DIR$/node_modules/cypress" />
+      <working-dir value="$PROJECT_DIR$" />
+      <cypress-options value="-q --browser chrome" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/cypress/e2e/Login/TC002_Login_invalid.cy.js" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cypress.all tests in TC002_Login_invalid.cy.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c17cb3dc-e2b8-4e2f-8a0a-4175be7caeb3" name="Changes" comment="" />
+      <created>1720625048578</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720625048578</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
