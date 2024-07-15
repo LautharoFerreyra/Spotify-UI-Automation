@@ -1,4 +1,4 @@
-class playListPage{ 
+class playList{
     
     get createPlaylist(){
         return cy.get('[style="display: block;"] > .Button-sc-1dqy6lx-0')
@@ -46,4 +46,4 @@ class playListPage{
         return cy.get(".mXNT9H2GU7lDW4cGx0q1")
     }
 }
-export default new playListPage();
+export default new playList();

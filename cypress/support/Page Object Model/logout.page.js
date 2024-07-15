@@ -1,6 +1,6 @@
 class logoutPage{
     get logoutBtn(){
-        return cy.get("")
+        return cy.get('.mWj8N7D_OlsbDgtQx5GW')
     }
 }
 
