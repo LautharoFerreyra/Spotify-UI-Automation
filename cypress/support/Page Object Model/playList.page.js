@@ -33,14 +33,26 @@ class playList{
     get shuffleButtom(){ 
         return cy.get(".mXNT9H2GU7lDW4cGx0q1")
     }
-    get nameButtom(){ 
-        return cy.get(".mXNT9H2GU7lDW4cGx0q1")
+    get confirmationAddSongToPlaylist(){
+        return cy.get('.encore-announcement-set > .Button-sc-1dqy6lx-0')
     }
-    get picButtom(){ 
-        return cy.get(".mXNT9H2GU7lDW4cGx0q1")
+    get playlistApril(){
+        return cy.get('.JFDEiqT_8B5zeG_CDSdK')
+    }
+    get shareButtom(){
+        return cy.get('.lQEXaOyKiOHRJAkTf1EF')
+    }
+    get copyLinkButtom(){
+        return cy.get('.mWj8N7D_OlsbDgtQx5GW')
     }
     get addToPlayList(){
-        return cy.get('.encore-announcement-set > .Button-sc-1dqy6lx-0 > .IconWrapper__Wrapper-sc-16usrgb-0 > .Svg-sc-ytk21e-0')
+        return cy.get('.lQEXaOyKiOHRJAkTf1EF')
+    }
+    get selectPlaylist(){
+        return cy.get('.mWj8N7D_OlsbDgtQx5GW')
+    }
+    get modalCopyConfirmation(){
+        return cy.get('.encore-announcement-set > .Button-sc-1dqy6lx-0')
     }
 }
 export default new playList();
