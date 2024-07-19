@@ -22,5 +22,6 @@ describe('Add song to a playlist',() => {
         playListPage.optionButtom.click({force : true})
         playListPage.addToPlayList.contains('Agregar a playlist').click();
         playListPage.addToPlayList.contains('Test Playlist').click({force : true});
+        playListPage.confirmationAddSongToPlaylist.should ('be.visible')
     });
 })
