@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c17cb3dc-e2b8-4e2f-8a0a-4175be7caeb3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/Playlist_Management/TC005_Add_Song_To_Playlist.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Playlist_Management/TC005_Add_Song_To_Playlist.cy.js" afterDir="false" />
-    </list>
+    <list default="true" id="c17cb3dc-e2b8-4e2f-8a0a-4175be7caeb3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
