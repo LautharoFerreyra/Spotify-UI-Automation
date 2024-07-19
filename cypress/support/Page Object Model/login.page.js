@@ -3,7 +3,9 @@ class loginPage{
     get iniLoginBtn(){ 
         return cy.get('[data-testid="login-button"] > .ButtonInner-sc-14ud5tc-0')
     }
-    
+    get blueMenuClose(){
+       return  cy.get('.encore-announcement-set > .Button-sc-1dqy6lx-0')
+    }
     get userInput(){ 
         return cy.get('#login-username');
     }
@@ -27,6 +29,9 @@ class loginPage{
     }
     get cookieBtn(){
         return cy.get('#onetrust-close-btn-container > .onetrust-close-btn-handler')
+    }
+    get body(){
+        return cy.get('[data-testid="track-page"] > :nth-child(4)')
     }
 }
 export default new loginPage();

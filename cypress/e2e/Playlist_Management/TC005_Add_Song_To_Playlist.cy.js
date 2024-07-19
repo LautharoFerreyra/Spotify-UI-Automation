@@ -2,7 +2,6 @@ import loginData from "../../test-data/login";
 import loginPage from "../../support/Page Object Model/login.page";
 import searchPage from "../../support/Page Object Model/search.page";
 import playListPage from "../../support/Page Object Model/playList.page";
-import songPage from "../../support/Page Object Model/song.page"
 
 describe('Add song to a playlist',() => {
 
@@ -16,15 +15,12 @@ describe('Add song to a playlist',() => {
 
     it("Add song to a playlist", () => {
         searchPage.searchButtom.click({ multiple: true });
-        searchPage.searchBard.click().type("Una noche de rock"); 
+        searchPage.searchBard.click().type("Exit");
         searchPage.searchHeroCard.click();
-        songPage.playBtnAfterHeroCard.then(($boton) => {
-            if ($boton.length > 0) {
-            $boton.click();
-            } else {
-                songPage.playBtnAfterHeroCard2.click();
-        }});
-        cy.scrollTo('top', )
-        playListPage.optionButtom.click();
+        loginPage.body.scrollTo('top', {ensureScrollable: false})
+        playListPage.optionButtom.click({force : true})
+        playListPage.addToPlayList.contains('Agregar a playlist').click();
+        playListPage.selectPlaylist.contains('Test Playlist').click({force : true}, {multiple : true});
+        playListPage.confirmationAddSongToPlaylist.should ('be.visible')
     });
 })
