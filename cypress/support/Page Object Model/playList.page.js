@@ -45,6 +45,12 @@ class playList{
     get copyLinkButtom(){
         return cy.get('.mWj8N7D_OlsbDgtQx5GW')
     }
+    get addToPlayList(){
+        return cy.get('.lQEXaOyKiOHRJAkTf1EF')
+    }
+    get selectPlaylist(){
+        return cy.get('.mWj8N7D_OlsbDgtQx5GW')
+    }
     get modalCopyConfirmation(){
         return cy.get('.encore-announcement-set > .Button-sc-1dqy6lx-0')
     }

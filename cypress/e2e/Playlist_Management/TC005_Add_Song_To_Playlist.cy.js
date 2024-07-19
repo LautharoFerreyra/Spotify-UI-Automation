@@ -2,7 +2,6 @@ import loginData from "../../test-data/login";
 import loginPage from "../../support/Page Object Model/login.page";
 import searchPage from "../../support/Page Object Model/search.page";
 import playListPage from "../../support/Page Object Model/playList.page";
-import songPage from "../../support/Page Object Model/song.page"
 
 describe('Add song to a playlist',() => {
 
@@ -21,7 +20,7 @@ describe('Add song to a playlist',() => {
         loginPage.body.scrollTo('top', {ensureScrollable: false})
         playListPage.optionButtom.click({force : true})
         playListPage.addToPlayList.contains('Agregar a playlist').click();
-        playListPage.addToPlayList.contains('Test Playlist').click({force : true});
+        playListPage.selectPlaylist.contains('Test Playlist').click({force : true}, {multiple : true});
         playListPage.confirmationAddSongToPlaylist.should ('be.visible')
     });
 })
