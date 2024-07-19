@@ -40,7 +40,10 @@ class playList{
         return cy.get(".mXNT9H2GU7lDW4cGx0q1")
     }
     get addToPlayList(){
-        return cy.get('.encore-announcement-set > .Button-sc-1dqy6lx-0 > .IconWrapper__Wrapper-sc-16usrgb-0 > .Svg-sc-ytk21e-0')
+        return cy.get('.mWj8N7D_OlsbDgtQx5GW')
+    }
+    get clickOnPlayList() {
+        return cy.get ('mWj8N7D_OlsbDgtQx5GW')
     }
 }
 export default new playList();

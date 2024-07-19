@@ -28,5 +28,8 @@ class loginPage{
     get cookieBtn(){
         return cy.get('#onetrust-close-btn-container > .onetrust-close-btn-handler')
     }
+    get body(){
+        return cy.get('[data-testid="track-page"] > :nth-child(4)')
+    }
 }
 export default new loginPage();
