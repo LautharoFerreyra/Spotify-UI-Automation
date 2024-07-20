@@ -5,7 +5,7 @@ import songPage from "../../support/Page Object Model/song.page.js";
 import sharePage from "../../support/Page Object Model/share.page.js";
 import baseurl from "../../test-data/baseurl";
 
-describe('Share song', () => {
+describe('Search artist', () => {
 
   beforeEach(() => {
       cy.visit(baseurl.base);
