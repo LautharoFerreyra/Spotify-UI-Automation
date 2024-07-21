@@ -1,12 +1,13 @@
 import loginData from "../../test-data/login.js";
 import loginPage from "../../support/Page Object Model/login.page.js";
 import configPage from "../../support/Page Object Model/config.page.js";
+import baseurl from "../../test-data/baseurl";
 
 
 describe ('Change Languague', () => {
 
     beforeEach(() => {
-      cy.visit('https://open.spotify.com/intl-es');
+      cy.visit(baseurl.base);
       loginPage.iniLoginBtn.click();
       loginPage.userInput.type(loginData.validUser);
       loginPage.userPassword.type(loginData.validPassword);

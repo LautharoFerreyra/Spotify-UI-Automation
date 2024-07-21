@@ -1,10 +1,11 @@
 import loginData from "../../test-data/login.js";
 import loginPage from "../../support/Page Object Model/login.page.js";
+import baseurl from "../../test-data/baseurl";
 
 describe('Login with wrong credentials', () => {
 
     beforeEach(() => {
-      cy.visit('https://open.spotify.com/intl-es');
+      cy.visit(baseurl.base);
     });
 
     it('Invalid credentials', () => {

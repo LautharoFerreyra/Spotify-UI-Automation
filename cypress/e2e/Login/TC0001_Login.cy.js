@@ -1,11 +1,12 @@
 
 import loginData from "../../test-data/login.js";
 import loginPage from "../../support/Page Object Model/login.page.js";
+import baseurl from "../../test-data/baseurl";
 
 describe('Login with correct credentials', () => {
 
     beforeEach(() => {
-      cy.visit('https://open.spotify.com/intl-es');
+      cy.visit(baseurl.base);
     });
 
     it('Correct credentials', () => {
