@@ -6,17 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c17cb3dc-e2b8-4e2f-8a0a-4175be7caeb3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/Login/TC0001_Login.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Login/TC0001_Login.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/Music_Functionality/TC004_Play_Song.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Music_Functionality/TC004_Play_Song.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/Music_Functionality/TC005_View_Album_Info.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Music_Functionality/TC005_View_Album_Info.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/Search_Functionality/TC012_Search_Artist.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Search_Functionality/TC012_Search_Artist.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/Search_Functionality/TC013_Explore_Music_Genres.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Search_Functionality/TC013_Explore_Music_Genres.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/Search_Functionality/TC014_Explore_Podcasts.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Search_Functionality/TC014_Explore_Podcasts.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/Search_Functionality/TC015_Search_Song.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Search_Functionality/TC015_Search_Song.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/Social_Sharing/TC016_Share_Song.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Social_Sharing/TC016_Share_Song.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/Social_Sharing/TC017_Share_Song_On_Social_Media.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Social_Sharing/TC017_Share_Song_On_Social_Media.cy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/e2e/User_Interactions/TC018_Like_Song.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/User_Interactions/TC018_Like_Song.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/User_Interactions/TC019_Follow_Artist.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/User_Interactions/TC019_Follow_Artist.cy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/support/Page Object Model/song.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/Page Object Model/song.page.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

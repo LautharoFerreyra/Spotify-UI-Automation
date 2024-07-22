@@ -15,5 +15,8 @@ class songPage{
     get likeBtn(){
         return cy.get('[data-testid="add-button"]')
     }
+    get correctLike(){
+        return cy.get('.r4Hbxvv02KfOVeZ_v335 > .encore-text')
+   }
 }
 export default new songPage();
