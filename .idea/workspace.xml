@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c17cb3dc-e2b8-4e2f-8a0a-4175be7caeb3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/User_Interactions/TC018_Like_Song.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/User_Interactions/TC018_Like_Song.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/support/Page Object Model/song.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/Page Object Model/song.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/Music_Functionality/TC007_Play_Shuffle_Playlist.cy.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
