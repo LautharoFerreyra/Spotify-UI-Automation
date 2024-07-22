@@ -1,4 +1,3 @@
-
 import loginData from "../../test-data/login.js";
 import loginPage from "../../support/Page Object Model/login.page.js";
 import baseurl from "../../test-data/baseurl";

@@ -1,6 +1,6 @@
 import loginData from "../../test-data/login.js";
 import loginPage from "../../support/Page Object Model/login.page.js";
-import SearchPage from "../../support/Page Object Model/search.page";
+import searchPage from "../../support/Page Object Model/search.page";
 import songPage from "../../support/Page Object Model/song.page";
 import playList from "../../support/Page Object Model/playList.page";
 import baseurl from "../../test-data/baseurl";
@@ -16,9 +16,9 @@ describe('View album info', () => {
     });
 
     it('Album info', () => {
-        SearchPage.searchButtom.click({ multiple: true });
-      SearchPage.searchBard.click().type("Una noche de rock");
-      SearchPage.searchHeroCard.click();
+        searchPage.searchButtom.click({ multiple: true });
+      searchPage.searchBard.click().type("Una noche de rock");
+      searchPage.searchHeroCard.click();
       playList.optionButtom.click();
 
     });

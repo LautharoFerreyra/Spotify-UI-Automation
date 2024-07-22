@@ -12,5 +12,8 @@ class songPage{
     get playBtnAfterHeroCard2 (){
         return cy.get('[data-testid="topbar-content"] > .ix_8kg3iUb9VS5SmTnBY > [data-testid="play-button"] > .ButtonInner-sc-14ud5tc-0')
     }
+    get likeBtn(){
+        return cy.get('[data-testid="add-button"]')
+    }
 }
 export default new songPage();

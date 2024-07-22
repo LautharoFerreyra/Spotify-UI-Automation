@@ -1,7 +1,7 @@
 import baseurl from "../../test-data/baseurl";
 import loginPage from "../../support/Page Object Model/login.page";
 import loginData from "../../test-data/login";
-import SearchPage from "../../support/Page Object Model/search.page";
+import searchPage from "../../support/Page Object Model/search.page";
 
 describe( 'Explore podcast', ()=> {
 
@@ -14,8 +14,8 @@ describe( 'Explore podcast', ()=> {
     });
 
     it('Search artist',()=>{
-        SearchPage.searchButtom.click({ multiple: true });
-      SearchPage.searchBard.click().type('Duki');
+        searchPage.searchButtom.click({ multiple: true });
+      searchPage.searchBard.click().type('Duki');
     })
 
 })
