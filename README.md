@@ -1,6 +1,3 @@
-# Let's create the README file content in Markdown format and save it as a .md file.
-
-readme_content = """
 # Spotify Automation Project
 
 This is a project for automating the Spotify UI using the Cypress framework.
@@ -17,7 +14,7 @@ Ensure you have Node.js and npm installed on your machine. You can download them
 
 1. Clone the repository to your local machine:
     ```bash
-    git clone <your-repo-url>
+    git https://github.com/LautharoFerreyra/Spotify-UI-Automation.git
     ```
 
 2. Navigate to the project directory:
