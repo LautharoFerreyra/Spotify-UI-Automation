@@ -60,6 +60,3 @@ To execute the tests, you can use the following commands:
 
 When writing tests, use the page objects defined in `/cypress/support/pageObjects` to interact with the Spotify UI. This helps keep the tests maintainable and readable.
 
-Additional Resources
-Cypress Documentation
-Spotify API Documentation """
