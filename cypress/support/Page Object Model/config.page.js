@@ -4,7 +4,7 @@ class confignPage{
         return  cy.get('.Popover__StyledPopover-sc-1iog353-0 > .Button-sc-1dqy6lx-0')
     }
     get configProfile(){ 
-        return cy.get(".SFgYidQmrqrFEVh65Zrg")
+        return cy.get('[data-testid="user-widget-link"]')
     } 
     get configPreferences(){ 
         return cy.get('.Vz3pFUXmll6fKB5Fc4nd');

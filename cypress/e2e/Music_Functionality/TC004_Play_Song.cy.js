@@ -14,12 +14,12 @@ describe('Play a song', () => {
       loginPage.loginBtn.click()
       SearchPage.searchButtom.click({ multiple: true });
       loginPage.cookieBtn.click();
-      SearchPage.searchBard.click({ multiple: true }).type("Una noche de rock{enter}"); 
+      SearchPage.searchButtom.click({ multiple: true }).type("Una noche de rock{enter}"); 
 
   });
 
   it('Play a song', () => {
-    SearchPage.searchHeroCard.click({ multiple: true });
+    SearchPage.searchHeroCard.click({ force: true });
     songPage.playBtnAfterHeroCard.then(($btn) =>{
       if($btn.length > 0){
         cy.wrap($btn).click({force:true})
