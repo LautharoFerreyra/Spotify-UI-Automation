@@ -14,12 +14,20 @@ describe('Play a song', () => {
       loginPage.loginBtn.click()
       searchPage.searchButtom.click({ multiple: true });
       loginPage.cookieBtn.click();
+<<<<<<< HEAD
       searchPage.searchBard.click({ multiple: true }).type("Una noche de rock{enter}");
+=======
+      SearchPage.searchButtom.click({ multiple: true }).type("Una noche de rock{enter}"); 
+>>>>>>> 4d6b7ffd5e8c7531c5f020f2cbdf322390e2e62e
 
   });
 
   it('Play a song', () => {
+<<<<<<< HEAD
     searchPage.searchHeroCard.click({ multiple: true });
+=======
+    SearchPage.searchHeroCard.click({ force: true });
+>>>>>>> 4d6b7ffd5e8c7531c5f020f2cbdf322390e2e62e
     songPage.playBtnAfterHeroCard.then(($btn) =>{
       if($btn.length > 0){
         cy.wrap($btn).click({force:true})

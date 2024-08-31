@@ -14,8 +14,13 @@ describe( 'Explore podcast', ()=> {
     });
 
     it('Search artist',()=>{
+<<<<<<< HEAD
         searchPage.searchButtom.click({ multiple: true });
       searchPage.searchBard.click().type('Duki');
+=======
+      SearchPage.searchButtom.click({ multiple: true });
+      SearchPage.searchBard.click().type('Duki');
+>>>>>>> 4d6b7ffd5e8c7531c5f020f2cbdf322390e2e62e
     })
 
 })

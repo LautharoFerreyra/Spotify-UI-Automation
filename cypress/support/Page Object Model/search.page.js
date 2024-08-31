@@ -1,10 +1,10 @@
 class searchPage{ 
     
     get searchButtom(){
-        return cy.get(".KAcp7QFuEYSouAsuC5i_")
+        return cy.get('[data-testid="search-input"]')
     }
     get searchBard(){ 
-        return cy.get(".CVuGEUIxLkNKpMds8AFS")
+        return cy.get('[data-testid="top-result-card"]')
     }
     get searchHeroCard(){ 
         return cy.get(".mXNT9H2GU7lDW4cGx0q1")
